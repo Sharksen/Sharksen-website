@@ -1,0 +1,99 @@
+*{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  box-sizing: border-box;
+  
+}
+
+footer{
+  font-weight: bold;
+  font-size: 30px;
+  color: lightcoral;
+  background-color: #DBE9EE;
+  text-align: center;
+  height: 50px;
+}
+button{
+  color: teal;
+  padding: 5px;
+  margin: 5px;
+  border-radius: 30px;
+  
+  opacity: 1;
+  border: 1px dotted crimson;
+  height: 36px;
+  width: 80px;
+  
+  font-weight: bold;
+  font-size: 14px;
+  cursor: pointer;
+  display: inline-block;
+  overflow: hidden;
+}
+.adjustable{
+  width: auto; /* Allow the width to adjust based on the content */
+  white-space: nowrap; /* Prevent text from wrapping */
+  padding: 5px 20px; /* Adjust padding as needed */
+}
+
+#welcome{
+  color: rgb(0, 56, 37);
+  opacity: 0.7;
+}
+
+h4{
+  color: rgb(126, 126, 7);
+}
+
+p{
+  font-family: cursive;
+}
+
+a[href*="learn"]{
+  color: brown;
+}
+
+a:hover{
+  color: lime;
+}
+
+.bold{
+  font-weight: bold;
+}
+
+.blue{
+  color: blue;
+}
+
+.grey{
+  color: grey;
+}
+
+.heading-background{
+  background-color: aqua;
+  text-align: center;
+}
+
+.main-list li{
+  font-size: 10px;
+  
+}
+
+.main-list{
+  background-color: aquamarine;
+}
+
+.Gym{
+  height: 50px;
+  width: 100px;  
+  border: solid red 3px;
+  text-align: center;
+  border-radius: 50%;
+  padding-top: 3px;
+  margin: 20px auto;
+
+}
+
+.subject{
+  padding: 20px;
+  font-size: 30px;
+}
